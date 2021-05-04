@@ -12,11 +12,11 @@ Enter the global configuration mode by entering **config t** command.
 Here we can assign IP addresses to interfaces, assign/change hostname and many other such functions. 
 To assign a hostname to the switch S1 - **hostname S1**. Now the switch has been assigned the hostname of S1.
 
-Than assign passwords to line console and vty lines:
-  #line con 0                     #line vty 0 4
-  #password cisco                 #password cisco
-  #login                          #login
-  #exit                           #exit
+Then assign passwords to line console and vty lines:
+  1. #line con 0                     #line vty 0 4
+  2. #password cisco                 #password cisco
+  3. #login                          #login
+  4. #exit                           #exit
 The login command is issued to prompt for login while accessing.
 Assigning IP address:
   #interface vlan 1
