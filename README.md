@@ -31,7 +31,7 @@ Assigning IP address:
 The **no shutdown** command is issued to keep the interface up. 
 
 The following is the image of the configure passwords and assigned IPv4 addresses. 
-----------------------------------------------------------------
+![rc_IP Pass](https://user-images.githubusercontent.com/69259617/116973735-f7ee8380-ac8a-11eb-9331-3eff5dcc2e26.JPG)
 
 The following is an image of the interfaces. Only interfaces FastEthernet 0/6 and VLAN 1 are up because the PC is connected to the Switch through F0/6 and we have assigned IP address to the VLAN 1 interface and issued no shutdown command.
 ----------------------------------------------------
