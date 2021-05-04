@@ -34,7 +34,7 @@ The following is the image of the configure passwords and assigned IPv4 addresse
 ![rc_IP Pass](https://user-images.githubusercontent.com/69259617/116973735-f7ee8380-ac8a-11eb-9331-3eff5dcc2e26.JPG)
 
 The following is an image of the interfaces. Only interfaces FastEthernet 0/6 and VLAN 1 are up because the PC is connected to the Switch through F0/6 and we have assigned IP address to the VLAN 1 interface and issued no shutdown command.
-----------------------------------------------------
+![int_UP](https://user-images.githubusercontent.com/69259617/116973894-36843e00-ac8b-11eb-8dcc-3fd566d2584f.JPG)
 
 Finally, the connectivity test. First ping the PC itself. Then ping the Switch using ping command. 
 The output of the ping command is shown below.
