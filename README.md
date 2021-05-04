@@ -13,10 +13,15 @@ Here we can assign IP addresses to interfaces, assign/change hostname and many o
 To assign a hostname to the switch S1 - **hostname S1**. Now the switch has been assigned the hostname of S1.
 
 Then assign passwords to line console and vty lines:
-  1. #line con 0                     #line vty 0 4
-  2. #password cisco                 #password cisco
-  3. #login                          #login
-  4. #exit                           #exit
+  #line con 0
+  #password cisco
+  #login
+  #exit
+ For vty lines:
+  #line vty 0 4
+  #password cisco
+  #login
+  #exit
 The login command is issued to prompt for login while accessing.
 Assigning IP address:
   #interface vlan 1
@@ -25,3 +30,12 @@ Assigning IP address:
   #exit
 The **no shutdown** command is issued to keep the interface up. 
 
+The following is the image of the configure passwords and assigned IPv4 addresses. 
+----------------------------------------------------------------
+
+The following is an image of the interfaces. Only interfaces FastEthernet 0/6 and VLAN 1 are up because the PC is connected to the Switch through F0/6 and we have assigned IP address to the VLAN 1 interface and issued no shutdown command.
+----------------------------------------------------
+
+Finally, the connectivity test. First ping the PC itself. Then ping the Switch using ping command. 
+The output of the ping command is shown below.
+------------------------------------------------------------------------
