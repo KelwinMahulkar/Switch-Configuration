@@ -38,4 +38,4 @@ The following is an image of the interfaces. Only interfaces FastEthernet 0/6 an
 
 Finally, the connectivity test. First ping the PC itself. Then ping the Switch using ping command. 
 The output of the ping command is shown below.
-------------------------------------------------------------------------
+![pings](https://user-images.githubusercontent.com/69259617/116973956-50258580-ac8b-11eb-84ea-6a7680e73392.JPG)
